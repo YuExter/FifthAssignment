@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530EAC8D203CAAA200E0ACEF /* RecentQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC8C203CAAA200E0ACEF /* RecentQueries.swift */; };
+		530EAC8F203CABE800E0ACEF /* RecentQueriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC8E203CABE800E0ACEF /* RecentQueriesTableViewController.swift */; };
+		530EAC91203CAFA900E0ACEF /* RecentQueryableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC90203CAFA900E0ACEF /* RecentQueryableViewCell.swift */; };
+		530EAC93203CB08600E0ACEF /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC92203CB08600E0ACEF /* TweetTableViewController.swift */; };
+		530EAC95203CB3F600E0ACEF /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC94203CB3F600E0ACEF /* TweetTableViewCell.swift */; };
+		530EAC97203CB5B800E0ACEF /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC96203CB5B800E0ACEF /* FullScreenImageViewController.swift */; };
+		530EAC99203CB6EB00E0ACEF /* MentionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC98203CB6EB00E0ACEF /* MentionTableViewController.swift */; };
+		530EAC9B203CB7B200E0ACEF /* MentionImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC9A203CB7B200E0ACEF /* MentionImageTableViewCell.swift */; };
+		530EAC9D203CB7C700E0ACEF /* MentionKeywordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EAC9C203CB7C700E0ACEF /* MentionKeywordTableViewCell.swift */; };
 		536877752039AB3200DBADAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877742039AB3200DBADAC /* AppDelegate.swift */; };
-		536877772039AB3200DBADAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877762039AB3200DBADAC /* ViewController.swift */; };
 		5368777A2039AB3200DBADAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536877782039AB3200DBADAC /* Main.storyboard */; };
 		5368777D2039AB3200DBADAC /* FifthAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5368777B2039AB3200DBADAC /* FifthAssignment.xcdatamodeld */; };
 		5368777F2039AB3200DBADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5368777E2039AB3200DBADAC /* Assets.xcassets */; };
 		536877822039AB3200DBADAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536877802039AB3200DBADAC /* LaunchScreen.storyboard */; };
+		5368778C2039ACBB00DBADAC /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368778B2039ACBB00DBADAC /* FetchedResultsTableViewController.swift */; };
+		5368778F2039ADB300DBADAC /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368778E2039ADB300DBADAC /* UITableViewDataSource+NSFetchedResultsController.swift */; };
+		536877912039C2D200DBADAC /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877902039C2D200DBADAC /* Tweet.swift */; };
+		536877952039C4C700DBADAC /* Mention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877942039C4C700DBADAC /* Mention.swift */; };
+		536877992039C65200DBADAC /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877982039C65200DBADAC /* Search.swift */; };
+		5368779B2039C6E900DBADAC /* TweetDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368779A2039C6E900DBADAC /* TweetDataTableViewController.swift */; };
+		5368779D2039C75D00DBADAC /* SearchMentionCounterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368779C2039C75D00DBADAC /* SearchMentionCounterTableViewController.swift */; };
+		536877A42039C92600DBADAC /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877A32039C92600DBADAC /* MediaItem.swift */; };
+		536877A62039C92F00DBADAC /* NSDictionary+KeyPathConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877A52039C92F00DBADAC /* NSDictionary+KeyPathConvenience.swift */; };
+		536877A82039C93600DBADAC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877A72039C93600DBADAC /* Request.swift */; };
+		536877AA2039C93C00DBADAC /* TweetStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877A92039C93C00DBADAC /* TweetStruct.swift */; };
+		536877AC2039C94200DBADAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536877AB2039C94200DBADAC /* User.swift */; };
+		8759A2F8F5FF562249907667 /* Pods_FifthAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDD96E3D474A1B627D5A90 /* Pods_FifthAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BDD96E3D474A1B627D5A90 /* Pods_FifthAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FifthAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7638896737E69BC4D62A0 /* Pods-FifthAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifthAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-FifthAssignment/Pods-FifthAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		530EAC8C203CAAA200E0ACEF /* RecentQueries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentQueries.swift; sourceTree = "<group>"; };
+		530EAC8E203CABE800E0ACEF /* RecentQueriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentQueriesTableViewController.swift; sourceTree = "<group>"; };
+		530EAC90203CAFA900E0ACEF /* RecentQueryableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentQueryableViewCell.swift; sourceTree = "<group>"; };
+		530EAC92203CB08600E0ACEF /* TweetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		530EAC94203CB3F600E0ACEF /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		530EAC96203CB5B800E0ACEF /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		530EAC98203CB6EB00E0ACEF /* MentionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionTableViewController.swift; sourceTree = "<group>"; };
+		530EAC9A203CB7B200E0ACEF /* MentionImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionImageTableViewCell.swift; sourceTree = "<group>"; };
+		530EAC9C203CB7C700E0ACEF /* MentionKeywordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionKeywordTableViewCell.swift; sourceTree = "<group>"; };
 		536877712039AB3200DBADAC /* FifthAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifthAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		536877742039AB3200DBADAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		536877762039AB3200DBADAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		536877792039AB3200DBADAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5368777C2039AB3200DBADAC /* FifthAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FifthAssignment.xcdatamodel; sourceTree = "<group>"; };
 		5368777E2039AB3200DBADAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		536877812039AB3200DBADAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		536877832039AB3200DBADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5368778B2039ACBB00DBADAC /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableViewController.swift; sourceTree = "<group>"; };
+		5368778E2039ADB300DBADAC /* UITableViewDataSource+NSFetchedResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewDataSource+NSFetchedResultsController.swift"; sourceTree = "<group>"; };
+		536877902039C2D200DBADAC /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		536877942039C4C700DBADAC /* Mention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mention.swift; sourceTree = "<group>"; };
+		536877982039C65200DBADAC /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5368779A2039C6E900DBADAC /* TweetDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDataTableViewController.swift; sourceTree = "<group>"; };
+		5368779C2039C75D00DBADAC /* SearchMentionCounterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMentionCounterTableViewController.swift; sourceTree = "<group>"; };
+		536877A32039C92600DBADAC /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		536877A52039C92F00DBADAC /* NSDictionary+KeyPathConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+KeyPathConvenience.swift"; sourceTree = "<group>"; };
+		536877A72039C93600DBADAC /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		536877A92039C93C00DBADAC /* TweetStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetStruct.swift; sourceTree = "<group>"; };
+		536877AB2039C94200DBADAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A635CA88E6559FCD6745945F /* Pods-FifthAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifthAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FifthAssignment/Pods-FifthAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759A2F8F5FF562249907667 /* Pods_FifthAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530EAC8B203CAA6900E0ACEF /* Recent Query */ = {
+			isa = PBXGroup;
+			children = (
+				530EAC8C203CAAA200E0ACEF /* RecentQueries.swift */,
+				530EAC8E203CABE800E0ACEF /* RecentQueriesTableViewController.swift */,
+				530EAC90203CAFA900E0ACEF /* RecentQueryableViewCell.swift */,
+			);
+			path = "Recent Query";
+			sourceTree = "<group>";
+		};
 		536877682039AB3200DBADAC = {
 			isa = PBXGroup;
 			children = (
 				536877732039AB3200DBADAC /* FifthAssignment */,
+				536877892039AB3F00DBADAC /* Supporting Files */,
 				536877722039AB3200DBADAC /* Products */,
+				E28450F57A8DB9CBDF2B9070 /* Pods */,
+				6718E8FAF8B5128E7E6E50A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,74 @@
 		536877732039AB3200DBADAC /* FifthAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				536877742039AB3200DBADAC /* AppDelegate.swift */,
-				536877762039AB3200DBADAC /* ViewController.swift */,
+				530EAC8B203CAA6900E0ACEF /* Recent Query */,
+				536877A22039C8F700DBADAC /* TwitterLib */,
+				5368778A2039AB4E00DBADAC /* Core Data */,
 				536877782039AB3200DBADAC /* Main.storyboard */,
-				5368777E2039AB3200DBADAC /* Assets.xcassets */,
-				536877802039AB3200DBADAC /* LaunchScreen.storyboard */,
 				536877832039AB3200DBADAC /* Info.plist */,
-				5368777B2039AB3200DBADAC /* FifthAssignment.xcdatamodeld */,
+				5368779A2039C6E900DBADAC /* TweetDataTableViewController.swift */,
+				5368779C2039C75D00DBADAC /* SearchMentionCounterTableViewController.swift */,
+				530EAC92203CB08600E0ACEF /* TweetTableViewController.swift */,
+				530EAC94203CB3F600E0ACEF /* TweetTableViewCell.swift */,
+				530EAC96203CB5B800E0ACEF /* FullScreenImageViewController.swift */,
+				530EAC98203CB6EB00E0ACEF /* MentionTableViewController.swift */,
+				530EAC9A203CB7B200E0ACEF /* MentionImageTableViewCell.swift */,
+				530EAC9C203CB7C700E0ACEF /* MentionKeywordTableViewCell.swift */,
 			);
 			path = FifthAssignment;
+			sourceTree = "<group>";
+		};
+		536877892039AB3F00DBADAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536877742039AB3200DBADAC /* AppDelegate.swift */,
+				5368777E2039AB3200DBADAC /* Assets.xcassets */,
+				536877802039AB3200DBADAC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5368778A2039AB4E00DBADAC /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				5368777B2039AB3200DBADAC /* FifthAssignment.xcdatamodeld */,
+				5368778B2039ACBB00DBADAC /* FetchedResultsTableViewController.swift */,
+				5368778E2039ADB300DBADAC /* UITableViewDataSource+NSFetchedResultsController.swift */,
+				536877902039C2D200DBADAC /* Tweet.swift */,
+				536877942039C4C700DBADAC /* Mention.swift */,
+				536877982039C65200DBADAC /* Search.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		536877A22039C8F700DBADAC /* TwitterLib */ = {
+			isa = PBXGroup;
+			children = (
+				536877AB2039C94200DBADAC /* User.swift */,
+				536877A92039C93C00DBADAC /* TweetStruct.swift */,
+				536877A72039C93600DBADAC /* Request.swift */,
+				536877A32039C92600DBADAC /* MediaItem.swift */,
+				536877A52039C92F00DBADAC /* NSDictionary+KeyPathConvenience.swift */,
+			);
+			name = TwitterLib;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6718E8FAF8B5128E7E6E50A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BDD96E3D474A1B627D5A90 /* Pods_FifthAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28450F57A8DB9CBDF2B9070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A635CA88E6559FCD6745945F /* Pods-FifthAssignment.debug.xcconfig */,
+				33D7638896737E69BC4D62A0 /* Pods-FifthAssignment.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 536877862039AB3200DBADAC /* Build configuration list for PBXNativeTarget "FifthAssignment" */;
 			buildPhases = (
+				7DC55783F17C5CAA1EC36461 /* [CP] Check Pods Manifest.lock */,
 				5368776D2039AB3200DBADAC /* Sources */,
 				5368776E2039AB3200DBADAC /* Frameworks */,
 				5368776F2039AB3200DBADAC /* Resources */,
+				2A29190545FB42F9FB59677A /* [CP] Embed Pods Frameworks */,
+				C65553EDA7FB9BF38E4CC6F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +254,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A29190545FB42F9FB59677A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FifthAssignment/Pods-FifthAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC55783F17C5CAA1EC36461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FifthAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65553EDA7FB9BF38E4CC6F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FifthAssignment/Pods-FifthAssignment-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FifthAssignment/Pods-FifthAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5368776D2039AB3200DBADAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530EAC99203CB6EB00E0ACEF /* MentionTableViewController.swift in Sources */,
+				5368779D2039C75D00DBADAC /* SearchMentionCounterTableViewController.swift in Sources */,
+				536877A82039C93600DBADAC /* Request.swift in Sources */,
+				5368778F2039ADB300DBADAC /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */,
+				536877952039C4C700DBADAC /* Mention.swift in Sources */,
+				536877A62039C92F00DBADAC /* NSDictionary+KeyPathConvenience.swift in Sources */,
+				530EAC95203CB3F600E0ACEF /* TweetTableViewCell.swift in Sources */,
+				530EAC8D203CAAA200E0ACEF /* RecentQueries.swift in Sources */,
+				530EAC97203CB5B800E0ACEF /* FullScreenImageViewController.swift in Sources */,
 				5368777D2039AB3200DBADAC /* FifthAssignment.xcdatamodeld in Sources */,
-				536877772039AB3200DBADAC /* ViewController.swift in Sources */,
+				530EAC8F203CABE800E0ACEF /* RecentQueriesTableViewController.swift in Sources */,
+				530EAC91203CAFA900E0ACEF /* RecentQueryableViewCell.swift in Sources */,
+				536877AC2039C94200DBADAC /* User.swift in Sources */,
+				530EAC9D203CB7C700E0ACEF /* MentionKeywordTableViewCell.swift in Sources */,
+				536877912039C2D200DBADAC /* Tweet.swift in Sources */,
+				530EAC9B203CB7B200E0ACEF /* MentionImageTableViewCell.swift in Sources */,
+				536877992039C65200DBADAC /* Search.swift in Sources */,
+				536877AA2039C93C00DBADAC /* TweetStruct.swift in Sources */,
+				5368778C2039ACBB00DBADAC /* FetchedResultsTableViewController.swift in Sources */,
+				536877A42039C92600DBADAC /* MediaItem.swift in Sources */,
+				530EAC93203CB08600E0ACEF /* TweetTableViewController.swift in Sources */,
+				5368779B2039C6E900DBADAC /* TweetDataTableViewController.swift in Sources */,
 				536877752039AB3200DBADAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +471,7 @@
 		};
 		536877872039AB3200DBADAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A635CA88E6559FCD6745945F /* Pods-FifthAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +487,7 @@
 		};
 		536877882039AB3200DBADAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D7638896737E69BC4D62A0 /* Pods-FifthAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
